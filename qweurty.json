@@ -10,7 +10,7 @@
 	"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
 	"keys": [
 		//  Number row
-		{ "pos": "~", "letters": [ "cdk:grave", "~", "", "" ] },
+		{ "pos": "~", "letters": [ "cdk:grave", "cdk:tilde", "", "" ] },
 		{ "pos": "1", "letters": [ "1", "!", "·", "¡" ] },
 		{ "pos": "2", "letters": [ "2", "@", "²", "₂" ] },
 		{ "pos": "3", "letters": [ "3", "#", "£", "¥" ] },
@@ -40,14 +40,13 @@
 		{ "pos": "\\", "letters": [ "\\", "|", "¬", "¦" ] },
 		
 		// Home row
-		{ "pos": "CapsLock", "letters": [ "cdk:grave", "~", "", "" ] },
 		{ "pos": "A", "letters": [ "a", "A", "å", "Å" ] },
 		{ "pos": "S", "letters": [ "s", "S", "ß", "ẞ" ] },
 		{ "pos": "D", "letters": [ "d", "D", "ð", "Ð" ] },
 		{ "pos": "F", "letters": [ "f", "F", "ƒ", "ſ" ] },
 		{ "pos": "G", "letters": [ "g", "G", "", "" ] },
 		{ "pos": "H", "letters": [ "h", "H", "", "" ] },
-		{ "pos": "J", "letters": [ "j", "J", "ĳ:ij", "Ĳ:IJ" ] },
+		{ "pos": "J", "letters": [ "j", "J", "ĳ", "Ĳ" ] },
 		{ "pos": "K", "letters": [ "k", "K", "ĸ", "℃" ] },
 		{ "pos": "L", "letters": [ "l", "L", "∫", "∂" ] },
 		{ "pos": ";", "letters": [ ";", ":", "…", "" ] },
@@ -268,6 +267,35 @@
 				[ "A", "À" ],
 				[ "N", "Ǹ" ],
 				[ " ", "`" ]
+			]
+		},
+		{
+			// Tilde and Iberic characters
+			"name": "tilde",
+			"baseChar": "~",
+			"stringMap": [
+				[ "=", "≈" ],
+				[ "e", "ẽ" ],
+				[ "y", "ỹ" ],
+				[ "u", "ũ" ],
+				[ "i", "ĩ" ],
+				[ "o", "õ" ],
+				[ "a", "ã" ],
+				[ "h", "ḥ" ],
+				[ "l", "ḷḷ" ],
+				[ "v", "ṽ" ],
+				[ "E", "Ẽ" ],
+				[ "Y", "Ỹ" ],
+				[ "U", "Ũ" ],
+				[ "I", "Ĩ" ],
+				[ "O", "Õ" ],
+				[ "A", "Ã" ],
+				[ "H", "Ḥ" ],
+				[ "L", "Ḷḷ" ],
+				[ "V", "Ṽ" ],
+				[ "<", "≲" ],
+				[ ">", "≳" ],
+				[ " ", "~" ]
 			]
 		}
 	]
