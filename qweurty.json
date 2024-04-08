@@ -10,14 +10,14 @@
 	"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
 	"keys": [
 		//  Number row
-		{ "pos": "Iso", "letters": [ "cdk:cedilla", "cdk:dot", "", "" ] },
+		{ "pos": "Iso", "letters": [ "cdk:cedilla", "cdk:dot", "º", "ª" ] },
 		{ "pos": "1", "letters": [ "1", "!", "·", "¡" ] },
 		{ "pos": "2", "letters": [ "2", "@", "²", "₂" ] },
 		{ "pos": "3", "letters": [ "3", "#", "£", "¥" ] },
 		{ "pos": "4", "letters": [ "4", "$", "€", "¢" ] },
 		{ "pos": "5", "letters": [ "5", "%", "‰", "‱" ] },
-		{ "pos": "6", "letters": [ "6", "cdk:circum", "º", "ª" ] },
-		{ "pos": "7", "letters": [ "7", "&", "∞", "" ] },
+		{ "pos": "6", "letters": [ "6", "cdk:circum", "™", "℠" ] },
+		{ "pos": "7", "letters": [ "7", "&", "№", "∞" ] },
 		{ "pos": "8", "letters": [ "8", "*", "°", "⌀" ] },
 		{ "pos": "9", "letters": [ "9", "(", "‘", "“" ] },
 		{ "pos": "0", "letters": [ "0", ")", "’", "”" ] },
@@ -48,12 +48,12 @@
 		{ "pos": "J", "letters": [ "j", "J", "ĳ", "Ĳ" ] },
 		{ "pos": "K", "letters": [ "k", "K", "ĸ", "℃" ] },
 		{ "pos": "L", "letters": [ "l", "L", "∫", "∂" ] },
-		{ "pos": ";", "letters": [ ";", ":", "…", "" ] },
+		{ "pos": ";", "letters": [ ";", ":", "…", "☞" ] },
 		{ "pos": "'", "letters": [ "cdk:acute", "cdk:dresis", "′", "″" ] },
 		{ "pos": "\\", "letters": [ "cdk:caron", "cdk:macron", "¬", "¦" ] },
 		
 		// Bottom row
-		{ "pos": "~", "letters": [ "cdk:grave", "cdk:tilde", "", "" ] },
+		{ "pos": "~", "letters": [ "cdk:grave", "cdk:tilde", "", "≈" ] },
 		{ "pos": "Z", "letters": [ "z", "Z", "ʒ", "Ʒ" ] },
 		{ "pos": "X", "letters": [ "x", "X", "×", "⨯" ] },
 		{ "pos": "C", "letters": [ "c", "C", "ç", "Ç" ] },
