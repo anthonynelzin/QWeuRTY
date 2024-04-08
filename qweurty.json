@@ -10,7 +10,7 @@
 	"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
 	"keys": [
 		//  Number row
-		{ "pos": "~", "letters": [ "cdk:grave", "cdk:tilde", "", "" ] },
+		{ "pos": "Iso", "letters": [ "cdk:cedilla", "cdk:dot", "", "" ] },
 		{ "pos": "1", "letters": [ "1", "!", "·", "¡" ] },
 		{ "pos": "2", "letters": [ "2", "@", "²", "₂" ] },
 		{ "pos": "3", "letters": [ "3", "#", "£", "¥" ] },
@@ -37,7 +37,6 @@
 		{ "pos": "P", "letters": [ "p", "P", "œ", "Œ" ] },
 		{ "pos": "[", "letters": [ "[", "{", "«", "‹" ] },
 		{ "pos": "]", "letters": [ "]", "}", "»", "›" ] },
-		{ "pos": "\\", "letters": [ "cdk:caron", "|", "¬", "¦" ] },
 		
 		// Home row
 		{ "pos": "A", "letters": [ "a", "A", "å", "Å" ] },
@@ -51,9 +50,10 @@
 		{ "pos": "L", "letters": [ "l", "L", "∫", "∂" ] },
 		{ "pos": ";", "letters": [ ";", ":", "…", "" ] },
 		{ "pos": "'", "letters": [ "cdk:acute", "cdk:dresis", "′", "″" ] },
+		{ "pos": "\\", "letters": [ "cdk:caron", "|", "¬", "¦" ] },
 		
 		// Bottom row
-		{ "pos": "Iso", "letters": [ "cdk:cedilla", "cdk:dot", "", "" ] },
+		{ "pos": "~", "letters": [ "cdk:grave", "cdk:tilde", "", "" ] },
 		{ "pos": "Z", "letters": [ "z", "Z", "ʒ", "Ʒ" ] },
 		{ "pos": "X", "letters": [ "x", "X", "×", "⨯" ] },
 		{ "pos": "C", "letters": [ "c", "C", "ç", "Ç" ] },
