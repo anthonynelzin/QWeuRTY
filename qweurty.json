@@ -63,7 +63,10 @@
 		{ "pos": "M", "letters": [ "m", "M", "µ", "Ω" ] },
 		{ "pos": ",", "letters": [ ",", "<", "≤", "⸢" ] },
 		{ "pos": ".", "letters": [ ".", ">", "≥", "⸥" ] },
-		{ "pos": "/", "letters": [ "/", "?", "÷", "¿" ] }
+		{ "pos": "/", "letters": [ "/", "?", "÷", "¿" ] },
+		
+		// Space row
+		{ "pos": "Space", "letters": [ "\u0020", "\u0020", "\u00A0", "\u202F" ] }
 	],
 	"customDeadKeys": [
 		{
