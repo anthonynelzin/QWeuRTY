@@ -4,13 +4,13 @@
 	"name": "qweurty",
 	"company": "Anthony Nelzin-Santos",
 	"copyright": "EUPL v1.2",
-	"localeId": "0000040c",
+	"localeId": "00000409",
 	"description": "TK",
 	"version": "1.0",
 	"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
 	"keys": [
 		//  Number row
-		{ "pos": "Iso", "letters": [ "cdk:cedilla", "cdk:dot", "º", "ª" ] },
+		{ "pos": "~", "letters": [ "cdk:grave", "cdk:tilde", "º", "ª" ] },
 		{ "pos": "1", "letters": [ "1", "!", "·", "¡" ] },
 		{ "pos": "2", "letters": [ "2", "@", "²", "₂" ] },
 		{ "pos": "3", "letters": [ "3", "#", "£", "cdk:money" ] },
@@ -53,7 +53,7 @@
 		{ "pos": "\\", "letters": [ "cdk:caron", "cdk:macron", "¬", "∫" ] },
 		
 		// Bottom row
-		{ "pos": "~", "letters": [ "cdk:grave", "cdk:tilde", "", "≈" ] },
+		{ "pos": "Iso", "letters": [ "cdk:cedilla", "cdk:dot", "", "" ] },
 		{ "pos": "Z", "letters": [ "z", "Z", "ʒ", "Ʒ" ] },
 		{ "pos": "X", "letters": [ "x", "X", "×", "⨯" ] },
 		{ "pos": "C", "letters": [ "c", "C", "ç", "Ç" ] },
@@ -487,6 +487,7 @@
 			"name": "tilde",
 			"baseChar": "~",
 			"stringMap": [
+				[ "=", "≈" ],
 				[ "e", "ẽ" ],
 				[ "y", "ỹ" ],
 				[ "u", "ũ" ],
