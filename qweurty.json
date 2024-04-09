@@ -5,7 +5,7 @@
 	"company": "Anthony Nelzin-Santos",
 	"copyright": "EUPL v1.2",
 	"localeId": "00000409",
-	"description": "The truly pan-european keyboard layout.",
+	"description": "The truly pan-European keyboard layout.",
 	"version": "1.0",
 	"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
 	"keys": [
@@ -329,7 +329,6 @@
 				[ "J", "Й" ],
 				[ "K", "К" ],
 				[ "L", "Л" ],
-				[ "\"", "₴" ],
 				[ "Z", "З" ],
 				[ "X", "Х" ],
 				[ "C", "Ц" ],
