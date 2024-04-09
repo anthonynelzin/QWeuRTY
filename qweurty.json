@@ -647,5 +647,60 @@
 				[ " ", "~" ]
 			]
 		}
+	],
+	"variants": [
+		{
+			"name": "Colemak DH",
+			"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
+			"keys": [
+				{ "pos": "E", "letters": [ "f", "F", "ƒ", "ſ" ] },
+				{ "pos": "R", "letters": [ "p", "P", "œ", "Œ" ] },
+				{ "pos": "T", "letters": [ "b", "B", "§", "¶" ] },
+				{ "pos": "Y", "letters": [ "j", "J", "ĳ", "Ĳ" ] },
+				{ "pos": "U", "letters": [ "l", "L", "ḷ", "Ḷ" ] },
+				{ "pos": "I", "letters": [ "u", "U", "ů", "Ů" ] },
+				{ "pos": "O", "letters": [ "y", "Y", "ȝ", "Ȝ" ] },
+				{ "pos": "P", "letters": [ ";", ":", "…", "¦" ] },
+				{ "pos": "S", "letters": [ "r", "R", "®", "©" ] },
+				{ "pos": "D", "letters": [ "s", "S", "ß", "ẞ" ] },
+				{ "pos": "F", "letters": [ "t", "T", "þ", "Þ" ] },
+				{ "pos": "H", "letters": [ "m", "M", "µ", "Ω" ] },
+				{ "pos": "J", "letters": [ "n", "N", "ñ", "Ñ" ] },
+				{ "pos": "K", "letters": [ "e", "E", "ə", "Ə" ] },
+				{ "pos": "L", "letters": [ "i", "I", "†", "‡" ] },
+				{ "pos": ";", "letters": [ "o", "O", "ø", "Ø" ] },
+				{ "pos": "V", "letters": [ "d", "D", "ð", "Ð" ] },
+				{ "pos": "B", "letters": [ "v", "V", "√", "∛" ] },
+				{ "pos": "N", "letters": [ "k", "K", "∫", "∂" ] },
+				{ "pos": "M", "letters": [ "h", "H", "ḥ", "Ḥ" ] }
+			]
+		},
+		{
+			"name": "Workman",
+			"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
+			"keys": [
+				{ "pos": "W", "letters": [ "d", "D", "ð", "Ð" ] },
+				{ "pos": "E", "letters": [ "r", "R", "®", "©" ] },
+				{ "pos": "R", "letters": [ "w", "W", "ƿ", "Ƿ" ] },
+				{ "pos": "T", "letters": [ "b", "B", "§", "¶" ] },
+				{ "pos": "Y", "letters": [ "j", "J", "ĳ", "Ĳ" ] },
+				{ "pos": "U", "letters": [ "f", "F", "ƒ", "ſ" ] },
+				{ "pos": "I", "letters": [ "u", "U", "ů", "Ů" ] },
+				{ "pos": "O", "letters": [ "p", "P", "œ", "Œ" ] },
+				{ "pos": "P", "letters": [ ";", ":", "…", "¦" ] },
+				{ "pos": "D", "letters": [ "h", "H", "ḥ", "Ḥ" ] },
+				{ "pos": "F", "letters": [ "t", "T", "þ", "Þ" ] },
+				{ "pos": "H", "letters": [ "y", "Y", "ȝ", "Ȝ" ] },
+				{ "pos": "J", "letters": [ "n", "N", "ñ", "Ñ" ] },
+				{ "pos": "K", "letters": [ "e", "E", "ə", "Ə" ] },
+				{ "pos": "L", "letters": [ "o", "O", "ø", "Ø" ] },
+				{ "pos": ";", "letters": [ "i", "I", "†", "‡" ] },
+				{ "pos": "C", "letters": [ "m", "M", "µ", "Ω" ] },
+				{ "pos": "V", "letters": [ "c", "C", "ç", "Ç" ] },
+				{ "pos": "B", "letters": [ "v", "V", "√", "∛" ] },
+				{ "pos": "N", "letters": [ "k", "K", "∫", "∂" ] },
+				{ "pos": "M", "letters": [ "l", "L", "ḷ", "Ḷ" ] }
+			]
+		}
 	]
 }
