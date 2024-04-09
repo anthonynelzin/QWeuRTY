@@ -1,11 +1,11 @@
 // QWeuRTY base layout
 {
-	"fullName": "QWeuRTY-TK",
+	"fullName": "QWeuRTY",
 	"name": "qweurty",
 	"company": "Anthony Nelzin-Santos",
 	"copyright": "EUPL v1.2",
 	"localeId": "00000409",
-	"description": "TK",
+	"description": "The truly pan-european keyboard layout.",
 	"version": "1.0",
 	"shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
 	"keys": [
